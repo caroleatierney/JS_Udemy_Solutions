@@ -45,7 +45,7 @@ function validAnagram(word1, word2){
     }
 
     // does the key VALUE of 1 = key VALUE of 2 (counter # must be the same)
-    if (freqCounter1[key] !== freqCounter2[key]) {
+    if (freqCounter1[key] != freqCounter2[key]) {
       console.log('false counter 1 <> counter 2', word1, word2);
       return false;
     }
